@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+body{
+	font-family: 'Fira Sans', sans-serif;
+	margin: 0;
+}
+
+img{
+	width: 100%;
+}
+
+.cont_404{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	margin: 25px 0 0 0;
+}
+
+h1{
+	text-transform: uppercase;
+	color: #2C333D;
+}
+
+a{
+	text-decoration: none;
+	user-select: none;
+
+	color: #2C333D;
+
+	transition: .25s;
+}
+
+a:hover{
+	color: #355F6F;
+}
+
